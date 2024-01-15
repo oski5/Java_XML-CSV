@@ -1,0 +1,7 @@
+_TestId,_TestType,_aaa,Name,CommandLine,Input,Output,_bbb,hithere
+0001,CMD,ok2,,,,,,Convert number to string,Examp1.EXE,1,One,
+0002,,123 321,,,,,321,Find succeeding characters,Examp2.EXE,abc,def,hi
+0003,GUI,,,,,,,Convert multiple numbers to strings,Examp2.EXE /Verbose,123,One Two Three,
+0004,GUI,,,,,,,Find correlated key,Examp3.EXE,a1,b1,
+0005,GUI,,,,,,,Count characters,FinalExamp.EXE,This is a test,14,
+0006,GUI,,,,,,,Another Test,Examp2.EXE,Test Input,10,

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<File>
+ <FileData>
+    <Name>Convert number to string</Name>
+    <CommandLine>Examp1.EXE</CommandLine>
+    <Input></Input>
+    <Output>One</Output>
+    <_TestId>0001</_TestId>
+    <_TestType>CMD</_TestType>
+ </FileData>
+ <FileData>
+    <Name>Find succeeding characters</Name>
+    <CommandLine>Examp2.EXE</CommandLine>
+    <Input>abc</Input>
+    <Output>def</Output>
+    <_TestId>0002</_TestId>
+    <_TestType>CMD</_TestType>
+ </FileData>
+ <FileData>
+    <Name>Convert multiple numbers to strings</Name>
+    <CommandLine>Examp2.EXE /Verbose</CommandLine>
+    <Input>123</Input>
+    <Output>One Two Three</Output>
+    <_TestId>0003</_TestId>
+    <_TestType>GUI</_TestType>
+ </FileData>
+ <FileData>
+    <Name>Find correlated key</Name>
+    <CommandLine>Examp3.EXE</CommandLine>
+    <Input>a1</Input>
+    <Output>b1</Output>
+    <_TestId>0004</_TestId>
+    <_TestType>GUI</_TestType>
+ </FileData>
+ <FileData>
+    <Name>Count characters</Name>
+    <CommandLine>FinalExamp.EXE</CommandLine>
+    <Input>This is a test</Input>
+    <Output>14</Output>
+    <_TestId>0005</_TestId>
+    <_TestType>GUI</_TestType>
+ </FileData>
+ <FileData>
+    <Name>Another Test</Name>
+    <CommandLine>Examp2.EXE</CommandLine>
+    <Input>Test Input</Input>
+    <Output>10</Output>
+    <_TestId>0006</_TestId>
+    <_TestType>GUI</_TestType>
+ </FileData>
+</File>
