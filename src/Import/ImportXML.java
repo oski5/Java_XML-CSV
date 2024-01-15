@@ -410,7 +410,6 @@ public class ImportXML{
             //}
 
             // export tablicy
-            RemoveNullVal(output);
             toFile tt = new toFile(output, exportPath);
             tt = new toFile();
 

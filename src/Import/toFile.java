@@ -1,5 +1,8 @@
 package Import;
 
+import java.io.IOException;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
 public class toFile {
     public static String[] tab;
     public static String filePath;
@@ -7,14 +10,18 @@ public class toFile {
         tab = table;
         filePath = path;
     }
-    public toFile(){
+    public toFile() throws IOException {
+        FileWriter fileWriter = new FileWriter(filePath);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         try {
-            for (int i = 0; i < tab.length; i++) {
-                if (tab[i] != null)
-                    System.out.println(tab[i]);
+            for (String line : tab) {
+                if(line != null) {
+                    bufferedWriter.write(line);
+                    bufferedWriter.newLine();
+                }
             }
-        }catch (Exception e){
-            System.out.println(e);
+        } finally {
+            bufferedWriter.close();
         }
     }
 }
