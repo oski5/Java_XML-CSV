@@ -5,6 +5,7 @@ Założenia na temat pliku XML:
 - brak ';' w nazwach
 
 Przykłdowy plik:
+```
 <?xml version="1.0"?>
 <Tests name="Tests">
   <Test TestId="0001" TestType="Type1">
@@ -18,6 +19,7 @@ Przykłdowy plik:
     <Data3>Data3.2</Data3>
   </Test>
 </Tests>
+```
 
 Obie klasy wykorzystują funkcje zmieniające ciągi znaków takie jak:
 - delString(String input, int index) - usuwa z ciągu znak o podanym indeksie
